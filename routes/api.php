@@ -12,4 +12,7 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
 
     // Projects
     Route::apiResource('projects', 'ProjectsApiController');
+
+    // Transactions
+    Route::apiResource('transactions', 'TransactionsApiController');
 });
