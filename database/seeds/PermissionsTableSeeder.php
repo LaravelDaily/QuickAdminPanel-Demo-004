@@ -92,6 +92,26 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => '21',
                 'title' => 'project_access',
             ],
+            [
+                'id'    => '22',
+                'title' => 'transaction_create',
+            ],
+            [
+                'id'    => '23',
+                'title' => 'transaction_edit',
+            ],
+            [
+                'id'    => '24',
+                'title' => 'transaction_show',
+            ],
+            [
+                'id'    => '25',
+                'title' => 'transaction_delete',
+            ],
+            [
+                'id'    => '26',
+                'title' => 'transaction_access',
+            ],
         ];
 
         Permission::insert($permissions);
